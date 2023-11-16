@@ -74,3 +74,44 @@ header{
 }
 .s-img{}
 .s-img img{}
+
+/* feature styles */
+.feature{
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+.c-title{}
+.c-title .c-h1{
+    margin-bottom: 15px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #010101;
+}
+.c-title .c-p{
+    font-size: 20px;
+    color: #313841;
+    line-height: 28px;
+}
+.f-item{
+    margin-top: 70px;
+}
+.f-icon{}
+.f-icon i{
+    margin-top: 5px;
+    font-size: 50px;
+    color: #010101;
+    transition: .3s;
+}
+.f-icon i:hover{
+    transform: scale(.8);
+}
+.f-text{}
+.f-text h2{
+    /* margin-bottom: 10px; */
+    font-size: 22px;
+    font-weight: 400;
+    color: #010101;
+}
+.f-text p{
+    letter-spacing: 1px;
+}

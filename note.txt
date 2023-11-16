@@ -26,3 +26,15 @@
 menu        22px            22              20
 
 padding     100-120px       80              50-70
+
+feature     
+    pt      100px           80              50
+    pb      120px           100             70
+
+h1          32              32              25
+p           20              20              17  
+.f-item mt  70              50              30
+icon        50              50              
+h2          22              22              20/18
+p           16              16              16
+
