@@ -1,5 +1,9 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .c-padding {
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
   /* header styles */
   header {
     padding: 10px 0;
@@ -42,10 +46,6 @@
   }
 
   /* feature styles */
-  .feature {
-    padding-top: 50px;
-    padding-bottom: 70px;
-  }
   .c-title .c-h1 {
     margin-bottom: 10px;
     font-size: 25px;
@@ -75,10 +75,34 @@
   .f-text p {
     letter-spacing: 0px;
   }
+
+   /* contact */
+   .c-form{
+    margin: 30px 0 40px;
+}
+.c-input{
+  height: 45px;
+  
+}
+.btn-submit{
+  height: 45px;
+}
+.social-icon i{
+  font-size: 35px;
+}
+
+/* footer */
+footer {
+  padding-bottom: 70px;
+}
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .c-padding {
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
   /* header styles */
   .menu ul li a {
     font-size: 20px;
@@ -118,10 +142,6 @@
   }
 
   /* feature styles */
-  .feature {
-    padding-top: 50px;
-    padding-bottom: 70px;
-  }
   .c-title .c-h1 {
     margin-bottom: 10px;
     font-size: 25px;
@@ -151,10 +171,34 @@
   .f-text p {
     letter-spacing: 0px;
   }
+
+  /* contact */
+  .c-form{
+    margin: 30px 0 40px;
+}
+.c-input{
+  height: 45px;
+  
+}
+.btn-submit{
+  height: 45px;
+}
+.social-icon i{
+  font-size: 35px;
+}
+
+/* footer */
+footer {
+  padding-bottom: 70px;
+}
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .c-padding {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
   /* header styles */
   .menu ul li a {
     padding: 10px 0 0 !important;
@@ -162,12 +206,13 @@
   }
 
   /* feature styles */
-  .feature {
-    padding-top: 80px;
-    padding-bottom: 100px;
-  }
   .f-item {
     margin-top: 50px;
+  }
+
+  /* footer */
+  footer {
+    padding-bottom: 100px;
   }
 }
 

@@ -34,7 +34,11 @@ feature
 h1          32              32              25
 p           20              20              17  
 .f-item mt  70              50              30
-icon        50              50              
+icon        50              50              35
 h2          22              22              20/18
 p           16              16              16
 
+contact
+form
+    mt      50              30              30
+    mb      70              50              40

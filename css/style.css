@@ -2,116 +2,183 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
 
 /* common styles */
-body{
-    font-family: 'PT Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #898989;
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #898989;
+}
+.c-padding {
+  padding-top: 100px;
+  padding-bottom: 120px;
 }
 
 /* header styles */
-header{
-    background-color: #fcdb00;
-    padding: 20px 0;
+header {
+  background-color: #fcdb00;
+  padding: 20px 0;
 }
-.menu ul li a{
-    /* padding-left: 50px !important; */
-    font-family: 'PT Sans', sans-serif;
-    font-size: 22px;
-    font-weight: 700;
-    color: #010101 !important;
-    padding: 0 50px !important;
+.menu ul li a {
+  /* padding-left: 50px !important; */
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #010101 !important;
+  padding: 0 50px !important;
 }
-.menu ul li:last-child a{
-    padding-right: 0 !important;
+.menu ul li:last-child a {
+  padding-right: 0 !important;
 }
-.menu ul li a:hover{
-    color: white !important;
+.menu ul li a:hover {
+  color: white !important;
 }
 
 /* slider styles */
-.slider{
-    background-color: #fcdb00;
-    padding-bottom: 100px;
+.slider {
+  background-color: #fcdb00;
+  padding-bottom: 100px;
 }
-.c-ind{
-    bottom: -80px;
+.c-ind {
+  bottom: -80px;
 }
 .c-ind [data-bs-target] {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
 }
-.s-text{
-    margin-top: 50px;
+.s-text {
+  margin-top: 50px;
 }
-.s-text h1{
-    font-size: 32px;
-    font-weight: 700;
-    color: #010101;
+.s-text h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #010101;
 }
-.s-text h2{
-    margin: 20px 0;
-    font-size: 20px;
-    font-weight: 400;
-    color: #313841;
+.s-text h2 {
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: #313841;
 }
-.s-text p{
-    margin-bottom: 35px;
-    color: #555555;
+.s-text p {
+  margin-bottom: 35px;
+  color: #555555;
 }
-.s-icon{}
-.s-icon ul li{
-    margin-right: 30px !important;
+.s-icon {
 }
-.s-icon ul li i{
-    font-size: 42px;
-    color: #010101;
-    transition: .3s;
+.s-icon ul li {
+  margin-right: 30px !important;
 }
-.s-icon ul li i:hover{
-    transform: scale(.8);
+.s-icon ul li i {
+  font-size: 42px;
+  color: #010101;
+  transition: 0.3s;
 }
-.s-img{}
-.s-img img{}
+.s-icon ul li i:hover {
+  transform: scale(0.8);
+}
+.s-img {
+}
+.s-img img {
+}
 
 /* feature styles */
-.feature{
-    padding-top: 100px;
-    padding-bottom: 120px;
+.feature {
 }
-.c-title{}
-.c-title .c-h1{
-    margin-bottom: 15px;
-    font-size: 32px;
-    font-weight: 700;
-    color: #010101;
+.c-title {
 }
-.c-title .c-p{
-    font-size: 20px;
-    color: #313841;
-    line-height: 28px;
+.c-title .c-h1 {
+  margin-bottom: 15px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #010101;
 }
-.f-item{
-    margin-top: 70px;
+.c-title .c-p {
+  font-size: 20px;
+  color: #313841;
+  line-height: 28px;
 }
-.f-icon{}
-.f-icon i{
-    margin-top: 5px;
-    font-size: 50px;
-    color: #010101;
-    transition: .3s;
+.f-item {
+  margin-top: 70px;
 }
-.f-icon i:hover{
-    transform: scale(.8);
+.f-icon {
 }
-.f-text{}
-.f-text h2{
-    /* margin-bottom: 10px; */
-    font-size: 22px;
-    font-weight: 400;
-    color: #010101;
+.f-icon i {
+  margin-top: 5px;
+  font-size: 50px;
+  color: #010101;
+  transition: 0.3s;
 }
-.f-text p{
-    letter-spacing: 1px;
+.f-icon i:hover {
+  transform: scale(0.8);
+}
+.f-text {
+}
+.f-text h2 {
+  /* margin-bottom: 10px; */
+  font-size: 22px;
+  font-weight: 400;
+  color: #010101;
+}
+.f-text p {
+  letter-spacing: 1px;
+}
+
+/* contact styles */
+.contact {
+  background-color: #010101;
+}
+.contact-title {
+  color: #fcdb00 !important;
+}
+.contact-p {
+  color: #898989 !important;
+}
+.c-form {
+  margin: 50px 0 70px;
+}
+.c-input {
+  height: 50px;
+  padding-left: 25px;
+}
+.btn-submit {
+  width: 100%;
+  height: 50px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #010101;
+  background-color: #fcdb00;
+}
+.btn-submit:hover {
+  color: #010101;
+  background-color: #ffffff;
+}
+.btn-submit:active {
+  color: #010101 !important;
+  background-color: #ffffff !important;
+}
+.social-icon i {
+  margin-right: 30px;
+  font-size: 50px;
+  color: #fcdb00;
+}
+.social-icon i:last-child {
+  margin-right: 0;
+}
+
+/* footer styles */
+footer {
+  padding-bottom: 120px;
+  background-color: #010101;
+}
+.f-text {
+  color: #ffffff;
+}
+.f-text ul li {
+  list-style: none;
+}
+.f-text ul li a {
+  text-decoration: none;
+  color: #ffffff;
 }
