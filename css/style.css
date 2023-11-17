@@ -149,6 +149,9 @@ header {
   font-size: 50px;
   color: #fcdb00;
 }
+.social-icon i:hover {
+  color: #ffffff;
+}
 .social-icon i:last-child {
   margin-right: 0;
 }
